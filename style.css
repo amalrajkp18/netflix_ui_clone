@@ -18,6 +18,15 @@ body {
     overflow-x: hidden;
 }
 
+h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
 
 .header {
     width: 100%;
@@ -138,7 +147,7 @@ nav {
     background: transparent;
     color: white;
     border-radius: 6px;
-    border-color: white;
+    border-color: #ae9696a1;
     font-size: 15px;
     padding: 15px;
     font-weight: 600;
@@ -158,6 +167,7 @@ nav {
     margin-left: 15px;
 }
 
+
 .divider-grey {
     width: 100%;
     height: 1vh;
@@ -176,14 +186,7 @@ nav {
 }
 
 .section-tv-content h2 {
-    font-size: 3rem;
-    font-weight: 900;
     margin-bottom: 10px;
-}
-
-.section-tv-content p {
-    font-size: 1.5rem;
-    font-weight: 400;
 }
 
 .tv-img {
@@ -211,15 +214,8 @@ nav {
     margin-top: 10%;
 }
 
-.section-download-content h2 {
-    font-size: 3rem;
-    font-weight: 900;
-
-}
 
 .section-download-content p {
-    font-size: 1.5rem;
-    font-weight: 400;
     margin-top: 2%;
 }
 
@@ -233,19 +229,89 @@ nav {
     text-align: start;
     transform: translate(10%, 130%);
 }
-.section-watch-contents h2{
-    font-size: 3rem;
-    font-weight: 900;
-    margin-bottom: 10PX;
+
+.section-watch-contents h2 {
+    margin-bottom: 10px;
 }
-.section-watch-contents p{
+
+.section-watch-contents p {
     font-size: 1.5rem;
     font-weight: 400;
 }
 
 .watch-img {
     margin-left: 52%;
-    margin-top: -2%;
+    margin-top: -4%;
     height: 390px;
     width: 38%;
+}
+
+.section-kids {
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+}
+
+.section-kids img {
+    margin-left: 12%;
+    margin-top: 5%;
+    width: 35%;
+}
+
+.section-kids-contents {
+    margin-left: 2%;
+    margin-top: 14%;
+}
+
+.section-kids-contents p {
+    margin-top: 2%;
+}
+
+.section-questions {
+    width: 100%;
+    height: 120vh;
+    background-color: black;
+    text-align: center;
+    padding: 65px 0px;
+}
+
+.listview-item {
+    background-color: #80808061;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+    padding: 25px;
+    margin-top: 10px;
+
+    :hover {
+        background-color: #676363b7;
+        border-color: #fafdff26;
+        transition-duration: 0.1s;
+    }
+}
+
+
+.listview-item h2 {
+    margin-bottom: 30px;
+}
+
+.icon-plus {
+    font-weight: 300;
+    font-size: 45px;
+    margin-top: -28px;
+}
+
+.section-questions h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin-top: 3%;
+}
+
+.footer {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
 }
