@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     color: #ffffff;
-
-
-
+    
 }
 
 html,
@@ -58,7 +56,7 @@ nav {
     display: inline-flex;
     align-items: center;
     background: black;
-    border: 1px solid #ffffff;
+    border: 1px solid  #776f6f;
     padding: 0px 17px;
     color: #ffffff;
     border-radius: 6px;
@@ -200,6 +198,7 @@ nav {
     height: 70vh;
     background-color: black;
     display: flex;
+
 }
 
 .download-img {
@@ -276,6 +275,10 @@ nav {
     padding: 65px 0px;
 }
 
+.section-questions h2 {
+    margin-bottom: 35px;
+}
+
 .listview-item {
     background-color: #80808061;
     display: flex;
@@ -285,17 +288,9 @@ nav {
     padding: 25px;
     margin-top: 10px;
 
-    :hover {
-        background-color: #676363b7;
-        border-color: #fafdff26;
-        transition-duration: 0.1s;
-    }
+
 }
 
-
-.listview-item h2 {
-    margin-bottom: 30px;
-}
 
 .icon-plus {
     font-weight: 300;
@@ -312,6 +307,53 @@ nav {
 
 .footer {
     width: 100%;
-    height: 90vh;
+    height: 65vh;
     background-color: black;
+    padding: 85px 175px;
+}
+
+.btn-language-footer {
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    background: black;
+    border: 1px solid #776f6f;
+    padding: 0px 17px;
+    color: #ffffff;
+    border-radius: 6px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.btn-language-down-icon {
+    width: 10px;
+    margin-left: 10px;
+}
+.footer-txt{
+    color: rgba(255,255,255,0.7);
+    font-size: 1rem;
+    font-weight: 450;
+    margin-bottom: 20px;
+}
+.footer-txt-2{
+    color: rgba(255,255,255,0.7);
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 14px;
+    color: rgba(255,255,255,0.7);
+    text-decoration: underline;
+    font-size: 0.875rem;
 }
