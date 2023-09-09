@@ -9,6 +9,16 @@
 
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
 .header {
     width: 100%;
     height: 95vh;
@@ -168,7 +178,7 @@ nav {
 .section-tv-content h2 {
     font-size: 3rem;
     font-weight: 900;
-    margin-bottom: 10PX;
+    margin-bottom: 10px;
 }
 
 .section-tv-content p {
@@ -197,7 +207,7 @@ nav {
 }
 
 .section-download-content {
-    margin-left: 7%;
+    margin-left: 5%;
     margin-top: 10%;
 }
 
@@ -211,4 +221,31 @@ nav {
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 2%;
+}
+
+.section-watch {
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+}
+
+.section-watch-contents {
+    text-align: start;
+    transform: translate(10%, 130%);
+}
+.section-watch-contents h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10PX;
+}
+.section-watch-contents p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.watch-img {
+    margin-left: 52%;
+    margin-top: -2%;
+    height: 390px;
+    width: 38%;
 }
