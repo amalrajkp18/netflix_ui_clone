@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     color: #ffffff;
 
 }
@@ -60,7 +59,6 @@ nav {
     padding: 0px 17px;
     color: #ffffff;
     border-radius: 6px;
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 2rem;
@@ -74,7 +72,6 @@ nav {
 }
 
 .btn-sigin {
-    margin-left: 10px;
     display: inline-flex;
     margin: 0;
     margin-right: 35px;
@@ -94,7 +91,6 @@ nav {
     color: #ffffff;
     background-color: #E50914;
     border-color: #1b1f2326;
-    -webkit-box-pack: center;
     justify-content: center;
     box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
     transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
@@ -155,7 +151,6 @@ nav {
 }
 
 .btn-get-started {
-    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
     background: #E50914;
     border: none;
     border-radius: 6px;
@@ -336,7 +331,6 @@ nav {
     padding: 0px 17px;
     color: #ffffff;
     border-radius: 6px;
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 2rem;
@@ -346,10 +340,6 @@ nav {
 
 }
 
-.btn-language-down-icon {
-    width: 10px;
-    margin-left: 10px;
-}
 
 .footer-txt {
     color: rgba(255, 255, 255, 0.7);
