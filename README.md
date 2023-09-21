@@ -44,6 +44,12 @@ The project directory structure looks like this:
    cd netflix_ui_clone
    ```
 
+   Open in VS Code:
+
+   ```
+   code .
+   ```
+
 
 1. Open the `index.html` file in your web browser.
 2. Explore the Netflix India landing page clone.
