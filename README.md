@@ -56,7 +56,4 @@ The project directory structure looks like this:
 3. Study the HTML and CSS code to understand how the page is structured and styled.
 4. Experiment with making changes to the HTML and CSS to learn more about web development.
 
-## Contributing
-
-Contributions are welcome! Feel free to fork this repository, make improvements, and create pull requests. If you have suggestions for enhancements or spot any issues, please open an issue.
 
